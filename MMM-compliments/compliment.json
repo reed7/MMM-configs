@@ -1,0 +1,38 @@
+{
+  "....-01-01": [
+    "Happy new year!"
+  ],
+  "....-10-29": [
+    "Happy Wei's birthday!"
+  ],
+  "....-11-26": [
+    "Happy birthday my love!"
+  ],
+  day_sunny: [
+    "Today is a sunny day",
+    "It's a beautiful day"
+  ],
+  rain: [
+    "Don't forget your umbrella"
+  ],
+  anytime: [
+    "Hey there sexy!",
+    "Love you!"
+  ],
+  morning: [
+    "Good morning sweet tea!",
+    "Enjoy your day my love!",
+    "How was your sleep darling?",
+  ],
+  afternoon: [
+    "Hello, beauty!",
+    "You look sexy!",
+    "Looking good today!"
+  ],
+  evening: [
+    "Wow, you look hot!",
+    "You look nice!",
+    "Hi, sexy!",
+    "Don't sleep too late!"
+  ]
+}

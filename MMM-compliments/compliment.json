@@ -27,5 +27,9 @@
     "你长得真好看!",
     "Hi, sexy!",
     "Don't sleep too late!"
-  ]
+  ],
+  "day_sunny": [
+	  "天气不错！",
+	  "It's a beautiful day"
+	]
 }

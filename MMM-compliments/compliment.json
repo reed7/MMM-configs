@@ -15,21 +15,21 @@
   rain: [
     "Don't forget your umbrella"
   ],
-  anytime: [
+  "anytime": [
     "Hey there sexy!",
     "Love you!"
   ],
-  morning: [
+  "morning": [
     "Good morning sweet tea!",
     "Enjoy your day my love!",
     "How was your sleep darling?",
   ],
-  afternoon: [
+  "afternoon": [
     "Hello, beauty!",
     "You look sexy!",
     "Looking good today!"
   ],
-  evening: [
+  "evening": [
     "Wow, you look hot!",
     "You look nice!",
     "Hi, sexy!",

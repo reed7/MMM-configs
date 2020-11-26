@@ -2,19 +2,24 @@
   "....-01-01": [
     "Happy new year!"
   ],
+  "....-12-25": [
+    "Merry Christmas!"
+  ],
   "....-10-29": [
     "Happy Wei's birthday!"
   ],
   "....-11-26": [
-    "Happy birthday my love!"
+    "Happy birthday!",
+    "Happy Thanksgiving!"
   ],
   "anytime": [
     "Hey there sweet tea!",
-    "Love you!"
+    "Love you!",
+    "你长得真好看"
   ],
   "morning": [
     "Good morning sweet tea!",
-    "Enjoy your day my love!",
+    "Enjoy your day!",
     "How was your sleep darling?"
   ],
   "afternoon": [
@@ -24,12 +29,11 @@
   ],
   "evening": [
     "Wow, you look hot!",
-    "你长得真好看!",
     "Hi, sexy!",
-    "Don't sleep too late!"
+    "Don't stay too late!"
   ],
   "day_sunny": [
-	  "天气不错！",
-	  "It's a beautiful day"
-	]
+    "天气不错！",
+    "It's a beautiful day"
+  ]
 }

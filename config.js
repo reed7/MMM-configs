@@ -145,27 +145,27 @@ var config = {
 	}
 },
 		{
-			module: "newsfeed",
-			position: "bottom_bar",
-			config: {
-				feeds: [
-					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					},
-					{
-					  title: "BBC World",
-					  url: "http://feeds.bbci.co.uk/news/video_and_audio/world/rss.xml",
-				        },
+	          module: "newsfeed",
+		  position: "top_bar",
+		  config: {
+			    feeds: [
+				     {
+				       title: "New York Times",
+				       url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+				      },
+				      {
+				        title: "BBC World",
+					url: "http://feeds.bbci.co.uk/news/video_and_audio/world/rss.xml",
+				       },
 				],
-				showSourceTitle: true,
-				showPublishDate: true,
-				broadcastNewsFeeds: true,
-				broadcastNewsUpdates: true,
-				showDescription: true,
-				updateInterval: 15000,
-				ignoreOlderThan: 43200000,
-				truncDescription: false
+			     showSourceTitle: true,
+			     showPublishDate: true,
+			     broadcastNewsFeeds: true,
+			     broadcastNewsUpdates: true,
+			     showDescription: true,
+		             updateInterval: 15000,
+			     ignoreOlderThan: 43200000,
+			     truncDescription: false
 			}
 		},
 	]

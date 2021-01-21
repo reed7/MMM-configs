@@ -90,7 +90,6 @@ var config = {
 			    Model: "smart_mirror",
 			  },
 			  recipes: [ 
-	                    "with-MMM-Spotify.js",
 		            "with-BackgroundStatus.js"
 			  ]
   		        }

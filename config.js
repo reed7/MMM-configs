@@ -118,6 +118,14 @@ var config = {
 			     truncDescription: false
 			}
 		},
+		{
+  module: "MMM-Detector",
+  position: "top_left",
+  configDeepMerge: true,
+  config: {
+    debug: false,
+  }
+},
 	]
 };
 

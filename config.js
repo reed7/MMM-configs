@@ -87,17 +87,22 @@ var config = {
                 secondLine: "BFIT",
         }
 },
-{
-	module: "MMM-Traffic",
-	position: "top_left",
-	config: {
-		accessToken: "pk.eyJ1IjoicmVlZDciLCJhIjoiY2tobGMyd2d2MWxqejMxbnF3N2F1NW5sMSJ9.bVqiv-giYoezROl5gDsL-A",
-		originCoords: "-71.2478391,42.3783448",
-		destinationCoords: "-71.1571521,42.397438",
-		firstLine: "{duration} mins",
-		secondLine: "Wei",
-	}
-},
+		{
+                  module: "MMM-Weather",
+                  position: "top_right",
+                  configDeepMerge: true,
+                  config: {
+                    updateInterval: "15m", // 15 minutes
+                    api: {
+                      key: "1f95ae7b17a605ab9abd737939229aed",
+                      latitude: 42.3783448,
+                      longitude: -71.2478391,
+                    },
+                    personalize: {
+                      forecastLayout: "table",
+                    }
+                  }
+                },
 		{
 	          module: "newsfeed",
 		  position: "top_bar",
@@ -151,17 +156,19 @@ var config = {
 		      latitude: 42.376171,
 		      longitude: -71.238991,
 		    },
-		    photos: {
-		      usePhotos: true,
-		      useGooglePhotosAPI: true,
-		      displayType: "Module",
-		      displayDelay: 10 * 1000,
-		      albums: ["Our Pictures"],
-		      sort: "random",
-		      hiResolution: true,
-		      timeFormat: "MM/DD/YYYY HH:mm",
-		      moduleHeight: 300,
-		      moduleWidth: 300,
+		    Extented: {
+		      photos: {
+		        usePhotos: true,
+		        useGooglePhotosAPI: true,
+		        displayType: "Module",
+		        displayDelay: 10 * 1000,
+		        albums: ["Our Pictures"],
+		        sort: "random",
+		        hiResolution: true,
+		        timeFormat: "MM/DD/YYYY HH:mm",
+		        moduleHeight: 300,
+		        moduleWidth: 300,
+		      }
 		    }
 		  }
 		},

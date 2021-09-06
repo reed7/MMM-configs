@@ -161,7 +161,7 @@ var config = {
 		      photos: {
 		        usePhotos: true,
 		        useGooglePhotosAPI: true,
-		        displayType: "Module",
+		        displayType: "Background",
 		        displayDelay: 10 * 1000,
 		        albums: ["Our Pictures"],
 		        sort: "random",

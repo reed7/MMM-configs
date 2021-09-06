@@ -157,6 +157,7 @@ var config = {
 		      longitude: -71.238991,
 		    },
 		    Extented: {
+	              useEXT: true,
 		      photos: {
 		        usePhotos: true,
 		        useGooglePhotosAPI: true,

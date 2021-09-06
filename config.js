@@ -157,20 +157,20 @@ var config = {
 		      longitude: -71.238991,
 		    },
 		    Extented: {
-	              useEXT: true,
-		      photos: {
-		        usePhotos: true,
-		        useGooglePhotosAPI: true,
-		        displayType: "Module",
-		        displayDelay: 10 * 1000,
-		        albums: ["Our Pictures"],
-		        sort: "random",
-		        hiResolution: true,
-		        timeFormat: "MM/DD/YYYY HH:mm",
-		        moduleHeight: 300,
-		        moduleWidth: 600,
-		      }
-		    }
+                      useEXT: true,
+                      photos: {
+                        usePhotos: true,
+                        useGooglePhotosAPI: true,
+                        displayType: "Module",
+                        displayDelay: 10 * 1000,
+                        albums: ["Our Pictures"],
+                        sort: "random",
+                        hiResolution: true,
+                        timeFormat: "MM/DD/YYYY HH:mm",
+                        moduleHeight: 810,
+                        moduleWidth: 1080,
+                      }
+                    }
 		  }
 		},
 	]

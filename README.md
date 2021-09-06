@@ -21,7 +21,7 @@ git pull
 npm install
 ```
 
-If having trouble starting the mirror after updated, try to remove `~/MagicMirror/node_modules` and retry. 
+If having trouble starting the mirror after the update, try to remove `~/MagicMirror/node_modules` and retry. 
 
 ## MMM-GoogleAssistant 
 The module works with `MMM-Detector` to provide GA functions. 

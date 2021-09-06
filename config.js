@@ -128,6 +128,18 @@ var config = {
 		  configDeepMerge: true,
 		  config: {
 		    debug: false,
+		    detectors: [
+		      {
+			detector: "Porcupine",
+			Model: "alexa",
+			Sensitivity: null,
+			Logo: "google",
+			autoRestart: false,
+			onDetected: {
+			  notification: "GA_ACTIVATE"
+			}
+		      }
+		    ]
 		  }
 		},
 		{

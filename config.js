@@ -161,14 +161,14 @@ var config = {
 		      photos: {
 		        usePhotos: true,
 		        useGooglePhotosAPI: true,
-		        displayType: "Background",
+		        displayType: "Module",
 		        displayDelay: 10 * 1000,
 		        albums: ["Our Pictures"],
 		        sort: "random",
 		        hiResolution: true,
 		        timeFormat: "MM/DD/YYYY HH:mm",
 		        moduleHeight: 300,
-		        moduleWidth: 300,
+		        moduleWidth: 600,
 		      }
 		    }
 		  }

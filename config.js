@@ -36,14 +36,18 @@ var config = {
 	//   starts serveronly and then starts chrome browser
 	// false, default for all NON-armv6l devices
 	// true, force serveronly mode, because you want to.. no UI on this device
-
+	electronOptions: {
+	  webPreferences: {
+	    webviewTag: true
+	  }
+	},
 	modules: [
 		{
 			module: "alert",
 		},
 		{
   module: "MMM-UpdateNotification",
-  position: "top_bar",
+  position: "bottom_bar",
 },
 		{
 			module: "clock",
@@ -119,13 +123,36 @@ var config = {
 			}
 		},
 		{
-  module: "MMM-Detector",
-  position: "top_left",
-  configDeepMerge: true,
-  config: {
-    debug: false,
-  }
-},
+		  module: "MMM-Detector",
+		  position: "top_left",
+		  configDeepMerge: true,
+		  config: {
+		    debug: false,
+		  }
+		},
+		{
+                  module: "MMM-GoogleAssistant",
+                  position: "bottom_bar",
+		  configDeepMerge: true,
+		  config: {
+		    assistantConfig: {
+		      latitude: 42.376171,
+		      longitude: -71.238991,
+		    },
+		    photos: {
+		      usePhotos: true,
+		      useGooglePhotosAPI: true,
+		      displayType: "Module",
+		      displayDelay: 10 * 1000,
+		      albums: ["Our Pictures"],
+		      sort: "random",
+		      hiResolution: true,
+		      timeFormat: "MM/DD/YYYY HH:mm",
+		      moduleHeight: 300,
+		      moduleWidth: 300,
+		    }
+		  }
+		},
 	]
 };
 

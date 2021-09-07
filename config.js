@@ -89,7 +89,7 @@ var config = {
 },
 		{
                   module: "MMM-Weather",
-                  position: "top_right",
+                  position: "bottom_right",
                   configDeepMerge: true,
                   config: {
                     updateInterval: "15m", // 15 minutes
@@ -167,8 +167,8 @@ var config = {
                         sort: "random",
                         hiResolution: true,
                         timeFormat: "MM/DD/YYYY HH:mm",
-                        moduleHeight: 810,
-                        moduleWidth: 1080,
+                        moduleHeight: 375,
+                        moduleWidth: 500,
                       }
                     }
 		  }

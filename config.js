@@ -74,6 +74,8 @@ var config = {
 		destinationCoords: "-71.1822161,42.3526755",
 		firstLine: "{duration} mins",
 		secondLine: "Anne",
+		hoursStart: "07:00",
+		hoursEnd: "23:00"
 	}
 },
 	{
@@ -85,6 +87,8 @@ var config = {
                 destinationCoords: "-71.070193,42.346037",
                 firstLine: "{duration} mins",
                 secondLine: "BFIT",
+		hoursStart: "07:00",
+		hoursEnd: "23:00"
         }
 },
 		{
@@ -96,6 +100,8 @@ var config = {
                 destinationCoords: "-149.721161,61.1085733",
                 firstLine: "{duration} mins",
                 secondLine: "Anchorage, AK",
+		hoursStart: "07:00",
+		hoursEnd: "09:00"
         }
 },
 		{

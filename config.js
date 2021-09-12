@@ -89,7 +89,7 @@ var config = {
 },
 		{
                   module: "MMM-Weather",
-                  position: "bottom_right",
+                  position: "top_right",
                   configDeepMerge: true,
                   config: {
                     updateInterval: "15m", // 15 minutes
@@ -129,7 +129,7 @@ var config = {
 		},
 		{
 		  module: "MMM-Detector",
-		  position: "top_left",
+		  position: "bottom_right",
 		  configDeepMerge: true,
 		  config: {
 		    debug: false,
@@ -149,7 +149,7 @@ var config = {
 		},
 		{
                   module: "MMM-GoogleAssistant",
-                  position: "bottom_bar",
+                  position: "bottom_center",
 		  configDeepMerge: true,
 		  config: {
 		    assistantConfig: {
@@ -167,8 +167,8 @@ var config = {
                         sort: "random",
                         hiResolution: true,
                         timeFormat: "MM/DD/YYYY HH:mm",
-                        moduleHeight: 375,
-                        moduleWidth: 500,
+                        moduleHeight: 525,
+                        moduleWidth: 700,
                       }
                     }
 		  }

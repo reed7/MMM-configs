@@ -88,6 +88,17 @@ var config = {
         }
 },
 		{
+        module: "MMM-Traffic",
+        position: "top_left",
+        config: {
+                accessToken: "pk.eyJ1IjoicmVlZDciLCJhIjoiY2tobGMyd2d2MWxqejMxbnF3N2F1NW5sMSJ9.bVqiv-giYoezROl5gDsL-A",
+                originCoords: "-71.2478391,42.3783448",
+                destinationCoords: "61.1085733,-149.721161",
+                firstLine: "{duration} mins",
+                secondLine: "Anchorage, AK",
+        }
+},
+		{
                   module: "MMM-Weather",
                   position: "top_right",
                   configDeepMerge: true,

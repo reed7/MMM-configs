@@ -70,7 +70,7 @@ var config = {
 	position: "top_left",
 	config: {
 		accessToken: "pk.eyJ1IjoicmVlZDciLCJhIjoiY2tobGMyd2d2MWxqejMxbnF3N2F1NW5sMSJ9.bVqiv-giYoezROl5gDsL-A",
-		originCoords: "-71.2478391,42.3783448",
+		originCoords: "-71.2500331,42.3783448",
 		destinationCoords: "-71.1822161,42.3526755",
 		firstLine: "{duration} mins",
 		secondLine: "Anne",
@@ -81,7 +81,7 @@ var config = {
         position: "top_left",
         config: {
                 accessToken: "pk.eyJ1IjoicmVlZDciLCJhIjoiY2tobGMyd2d2MWxqejMxbnF3N2F1NW5sMSJ9.bVqiv-giYoezROl5gDsL-A",
-                originCoords: "-71.2478391,42.3783448",
+                originCoords: "-71.2500331,42.3783448",
                 destinationCoords: "-71.070193,42.346037",
                 firstLine: "{duration} mins",
                 secondLine: "BFIT",
@@ -92,8 +92,8 @@ var config = {
         position: "top_left",
         config: {
                 accessToken: "pk.eyJ1IjoicmVlZDciLCJhIjoiY2tobGMyd2d2MWxqejMxbnF3N2F1NW5sMSJ9.bVqiv-giYoezROl5gDsL-A",
-                originCoords: "-71.2478391,42.3783448",
-                destinationCoords: "61.1085733,-149.721161",
+                originCoords: "-71.2500331,42.3783448",
+                destinationCoords: "-149.721161,61.1085733",
                 firstLine: "{duration} mins",
                 secondLine: "Anchorage, AK",
         }

@@ -154,7 +154,7 @@ var config = {
 		      {
 			detector: "Porcupine",
 			Model: "alexa",
-			Sensitivity: null,
+			Sensitivity: 0.4,
 			Logo: "google",
 			autoRestart: false,
 			onDetected: {

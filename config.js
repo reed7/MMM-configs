@@ -43,12 +43,9 @@ var config = {
 	},
 	modules: [
 		{
-			module: "alert",
-		},
-		{
-  module: "MMM-UpdateNotification",
-  position: "bottom_bar",
-},
+                  module: "MMM-UpdateNotification",
+                  position: "bottom_bar",
+                },
 		{
 			module: "clock",
 			position: "top_left"

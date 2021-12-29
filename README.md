@@ -24,7 +24,7 @@ npm install
 
 If having trouble starting the mirror after the update, try to remove `~/MagicMirror/node_modules` and retry. 
 
-## MMM-GoogleAssistant 
-The module works with `MMM-Detector` to provide GA functions. `MMM-Detector` takes the wake word and send notification to GA (or alexa which is not installed on my MM) to wake the module and take voice commands.<br>
+## [MMM-GoogleAssistant](https://github.com/bugsounet/MMM-GoogleAssistant)
+The module works with [MMM-Detector](https://github.com/bugsounet/MMM-Detector) to provide GA functions. `MMM-Detector` takes the wake word and send notification to GA (or alexa which is not installed on my MM) to wake the module and take voice commands.<br>
 
 I only enable GA activation on my MM. 
